@@ -1,0 +1,20 @@
+.app {
+   gap: 1.2em;
+}
+.app header {
+   gap: 2em;
+}
+.app {
+   max-width: calc(var(--size-lg) * 23);
+   background-color: var(--color-light);
+   padding: var(--size-md-lg);
+   border-radius: var(--size-xs);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.logo {
+   width: 100%;
+   max-width: calc(var(--size-lg) * 12);
+}
+.app header h1 {
+   font-size: 1.5rem;
+}

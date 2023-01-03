@@ -1,0 +1,52 @@
+:root {
+   --color-light: #fff;
+   --color-dark: #001;
+   --color-primary: #dd77ff;
+   --color-secondary: #1478dc;
+   --color-text: #2d3048;
+   --color-hover: #d911ff;
+
+   --size-xs: 0.5rem;
+   --size-xs-sm: 0.9rem;
+   --size-sm: 1rem;
+   --size-sm-md: 1.3rem;
+   --size-md: 1.5rem;
+   --size-md-lg: 1.8rem;
+   --size-lg: 2rem;
+   --size-xl: 2.5rem;
+}
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Share Tech', sans-serif;
+   color: var(--color-text);
+   border: none;
+   outline: none;
+}
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background: linear-gradient(
+      45deg,
+      var(--color-secondary),
+      var(--color-primary)
+   );
+}
+a {
+   text-decoration: none;
+}
+.flex-col-center {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.flex-row-center {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
