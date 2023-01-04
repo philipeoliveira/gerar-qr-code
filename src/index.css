@@ -36,7 +36,15 @@ body {
    );
 }
 a {
+   color: var(--color-secondary);
    text-decoration: none;
+   transition: color 0.3s;
+}
+a:focus,
+a:hover,
+a:active {
+   color: var(--color-hover);
+   text-decoration: underline;
 }
 .flex-col-center {
    display: flex;

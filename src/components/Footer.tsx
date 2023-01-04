@@ -13,6 +13,16 @@ const Footer = () => {
                Philipe Oliveira
             </a>
          </p>
+         <p>
+            API utilizada:{' '}
+            <a
+               href='https://goqr.me/api/'
+               title='Abrir em nova aba a documentação da API'
+               target='_blank'
+            >
+               goqr.me/api
+            </a>
+         </p>
       </div>
    );
 };
