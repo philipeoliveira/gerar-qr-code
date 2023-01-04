@@ -5,3 +5,12 @@
 .footer p {
    margin-top: var(--size-xs);
 }
+
+@media screen and (max-width: 689px) {
+   .footer {
+      font-size: 0.7rem;
+   }
+   .footer p {
+      margin-top: calc(var(--size-sm) / 4);
+   }
+}

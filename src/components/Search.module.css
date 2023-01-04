@@ -31,3 +31,10 @@
 .search button svg {
    font-size: 1.1rem;
 }
+
+@media screen and (max-width: 689px) {
+   .search input,
+   .search button {
+      padding: 0.5rem 0.8rem;
+   }
+}
