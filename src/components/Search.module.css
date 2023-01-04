@@ -24,7 +24,8 @@
    gap: 0.15em;
    transition: all 0.3s;
 }
-.search button:hover {
+.search button:hover,
+.search button:focus {
    background-color: var(--color-hover);
 }
 .search button svg {

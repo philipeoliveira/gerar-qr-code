@@ -1,0 +1,7 @@
+.qrcode {
+   margin-top: var(--size-md-lg);
+}
+.qrcode img {
+   width: 100%;
+   max-width: 150px;
+}

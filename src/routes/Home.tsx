@@ -1,15 +1,15 @@
 import { useState } from 'react';
 
+import { QrcodeProps } from '../types/qrcode';
+
 import Search from '../components/Search';
+import QRCodeContainer from '../components/QRCodeContainer';
 
 import classes from './Home.module.css';
-
-type qrcodeProps = {
-   url: string;
-};
+import Footer from '../components/Footer';
 
 const Home = () => {
-   const [qrcode, setQrcode] = useState<qrcodeProps | null>(null);
+   const [qrcode, setQrcode] = useState<QrcodeProps | null>(null);
 
    const loadQrcode = async (inputText: string) => {
       const res = await fetch(
@@ -18,7 +18,7 @@ const Home = () => {
 
       const { url } = res;
 
-      const qrcodeData: qrcodeProps = {
+      const qrcodeData: QrcodeProps = {
          url,
       };
 
@@ -30,9 +30,8 @@ const Home = () => {
    return (
       <div className={classes.home}>
          <Search loadQrcode={loadQrcode} />
-         {qrcode && (
-            <img src={qrcode.url} id='img-qr-code' alt='Imagem com QR Code' />
-         )}
+         {qrcode && <QRCodeContainer url={qrcode.url} />}
+         <Footer />
       </div>
    );
 };

@@ -1,0 +1,15 @@
+.footer {
+   font-size: 0.8rem;
+   color: var(--color-text);
+   margin-top: var(--size-md-lg);
+}
+.footer a {
+   color: var(--color-secondary);
+   transition: color 0.3s;
+}
+.footer a:focus,
+.footer a:hover,
+.footer a:active {
+   color: var(--color-hover);
+   text-decoration: underline;
+}
