@@ -13,7 +13,7 @@
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .logo {
-   width: 100%;
+   width: 95%;
    max-width: calc(var(--size-lg) * 12);
 }
 .app header h1 {
