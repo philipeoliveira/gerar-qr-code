@@ -7,7 +7,7 @@ function App() {
       <div className={`${classes.app} ${'flex-col-center'}`}>
          <header className='flex-col-center'>
             <img
-               src='/logo-gerar-qr-code.png'
+               src='src/assets/logo-gerar-qr-code.png'
                className={`${classes.logo} ${'flex-col-center'}`}
                alt='Logo Gerar QR Code'
             />
