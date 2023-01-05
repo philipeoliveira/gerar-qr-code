@@ -5,6 +5,10 @@
 .footer p {
    margin-top: var(--size-xs);
 }
+.footer svg {
+   font-size: calc(var(--size-md) / 2);
+   margin-left: calc(var(--size-xs) / 3);
+}
 
 @media screen and (max-width: 689px) {
    .footer {
@@ -12,5 +16,8 @@
    }
    .footer p {
       margin-top: calc(var(--size-sm) / 4);
+   }
+   .footer svg {
+      font-size: calc(var(--size-md-lg) / 3);
    }
 }

@@ -19,8 +19,10 @@ const Search = ({ loadQrcode }: SearchProps) => {
 
    return (
       <div className={`${classes.search} ${'flex-col-center'}`}>
+         <label htmlFor='text-or-link'>Digite um texto ou link</label>
          <input
             type='text'
+            id='text-or-link'
             placeholder='Digite um texto ou link'
             onChange={(e) => setUserText(e.target.value)}
             onKeyDown={handleKeyDown}

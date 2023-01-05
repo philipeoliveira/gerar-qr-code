@@ -1,5 +1,7 @@
 import classes from './Footer.module.css';
 
+import { ArrowSquareOut } from 'phosphor-react';
+
 const Footer = () => {
    return (
       <div className={`${classes.footer} ${'flex-col-center'}`}>
@@ -11,6 +13,7 @@ const Footer = () => {
                target='_blank'
             >
                Philipe Oliveira
+               <ArrowSquareOut color={'var(--color-secondary)'} />
             </a>
          </p>
          <p>
@@ -21,6 +24,7 @@ const Footer = () => {
                target='_blank'
             >
                goqr.me/api
+               <ArrowSquareOut color={'var(--color-secondary)'} />
             </a>
          </p>
       </div>
