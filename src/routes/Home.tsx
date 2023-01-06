@@ -7,7 +7,7 @@ import Loading from '../components/Loading';
 import QRCodeContainer from '../components/QRCodeContainer';
 import Footer from '../components/Footer';
 
-import classes from './Home.module.css';
+import styles from './Home.module.css';
 
 const Home = () => {
    const [qrcode, setQrcode] = useState<QrcodeProps | null>(null);
@@ -34,7 +34,7 @@ const Home = () => {
    };
 
    return (
-      <div className={classes.home}>
+      <div className={styles.home}>
          <Search loadQrcode={loadQrcode} />
 
          {showLoading && <Loading />}

@@ -2,7 +2,7 @@ import { useState, KeyboardEvent } from 'react';
 
 import { QrCode } from 'phosphor-react';
 
-import classes from './Search.module.css';
+import styles from './Search.module.css';
 
 type SearchProps = {
    loadQrcode: (inputText: string) => Promise<string>;
@@ -18,7 +18,7 @@ const Search = ({ loadQrcode }: SearchProps) => {
    };
 
    return (
-      <div className={`${classes.search} ${'flex-col-center'}`}>
+      <div className={`${styles.search} ${'flex-col-center'}`}>
          <label htmlFor='text-or-link'>Digite um texto ou link</label>
          <input
             type='text'

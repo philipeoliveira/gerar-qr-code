@@ -1,10 +1,10 @@
-import classes from './Footer.module.css';
+import styles from './Footer.module.css';
 
 import { ArrowSquareOut } from 'phosphor-react';
 
 const Footer = () => {
    return (
-      <div className={`${classes.footer} ${'flex-col-center'}`}>
+      <div className={`${styles.footer} ${'flex-col-center'}`}>
          <p>
             Desenvolvido por{' '}
             <a

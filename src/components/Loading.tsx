@@ -1,10 +1,10 @@
-import classes from './Loading.module.css';
+import styles from './Loading.module.css';
 
 import { SpinnerGap } from 'phosphor-react';
 
 const Loading = () => {
    return (
-      <div className={`${classes.loader} ${'flex-col-center'}`}>
+      <div className={`${styles.loader} ${'flex-col-center'}`}>
          <SpinnerGap size={32} />
       </div>
    );

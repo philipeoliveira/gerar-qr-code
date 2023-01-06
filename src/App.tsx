@@ -1,14 +1,14 @@
 import { Outlet } from 'react-router-dom';
 
-import classes from './App.module.css';
+import styles from './App.module.css';
 
 function App() {
    return (
-      <div className={`${classes.app} ${'flex-col-center'}`}>
+      <div className={`${styles.app} ${'flex-col-center'}`}>
          <header className='flex-col-center'>
             <img
                src='src/assets/logo-gerar-qr-code.png'
-               className={`${classes.logo} ${'flex-col-center'}`}
+               className={`${styles.logo} ${'flex-col-center'}`}
                alt='Logo Gerar QR Code'
             />
             <h1>Crie seu QR Code gratuitamente</h1>
