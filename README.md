@@ -12,4 +12,4 @@
 <li>Vite</li>
 <li>TypeScript</li>
 </ul>
-<p>API utilizada: <a href="https://goqr.me/api/" title="Abrir em nova aba a documentação da API" target="_blank">goqr.me/api</a></p>
+<p>API utilizada: <a href="https://goqr.me/api/" title="Abrir a documentação da API">goqr.me/api</a></p>
