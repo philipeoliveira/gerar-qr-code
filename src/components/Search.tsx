@@ -29,6 +29,7 @@ const Search = ({ loadQrcode }: SearchProps) => {
          />
          <button
             className='flex-row-center'
+            disabled={userText === ''}
             onClick={() => loadQrcode(userText)}
          >
             <QrCode color={'var(--color-light)'} />
